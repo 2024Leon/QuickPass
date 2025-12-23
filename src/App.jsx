@@ -200,7 +200,7 @@ export default function PassportApp() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center cursor-pointer" onClick={() => navigate('home')}>
-            <img src="/logo.svg" alt="QuickPass" className="h-9 w-auto" />
+            <img src="/logo.svg?v=2" alt="QuickPass" className="h-9 w-auto" />
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -943,7 +943,7 @@ export default function PassportApp() {
           <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
             <div className="col-span-1">
               <div className="flex items-center mb-4">
-                <img src="/logo.svg" alt="QuickPass" className="h-10 w-auto" />
+                <img src="/logo.svg?v=2" alt="QuickPass" className="h-10 w-auto" />
               </div>
               <p className="text-sm">Trusted by 50,000+ travelers for compliant passport and visa photos.</p>
             </div>
