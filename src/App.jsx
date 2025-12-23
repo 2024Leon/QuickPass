@@ -200,10 +200,7 @@ export default function PassportApp() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center cursor-pointer" onClick={() => navigate('home')}>
-            <div className="h-8 w-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
-              <Camera className="text-white h-5 w-5" />
-            </div>
-            <span className="font-bold text-xl text-slate-900 tracking-tight">QuickPass</span>
+            <img src="/logo.svg" alt="QuickPass" className="h-9 w-auto" />
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
