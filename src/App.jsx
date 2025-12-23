@@ -942,8 +942,8 @@ export default function PassportApp() {
         <footer className="bg-slate-900 text-slate-400 py-12">
           <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
             <div className="col-span-1">
-              <div className="flex items-center text-white font-bold text-xl mb-4">
-                <Camera className="mr-2 h-6 w-6 text-blue-500" /> QuickPass
+              <div className="flex items-center mb-4">
+                <img src="/logo.svg" alt="QuickPass" className="h-10 w-auto" />
               </div>
               <p className="text-sm">Trusted by 50,000+ travelers for compliant passport and visa photos.</p>
             </div>
